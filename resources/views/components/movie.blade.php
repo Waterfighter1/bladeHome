@@ -5,7 +5,7 @@
     <ul>
         @foreach($conmovie as $movie)
             <li> {{$movie}} </li>
-
+        @endforeach
     </ul>
 </div>
 

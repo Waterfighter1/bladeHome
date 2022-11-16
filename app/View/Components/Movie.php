@@ -15,8 +15,8 @@ class Movie extends Component
      */
     public function __construct($tag, $conmovie)
     {
-        $this->$tag = $tag;
-        $this->$conmovie = $conmovie;
+        $this->tag = $tag;
+        $this->conmovie = $conmovie;
     }
 
     /**
